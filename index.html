@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An accessible guide to Omokhuwele Umoru's area examination research on molecular catalyst–oxide interfaces and proposed BaTiO3 electro-optics.">
+  <title>Area Examination Guide · Omokhuwele Umoru</title>
+  <style>
+    @font-face{font-family:LatinModern;src:url("assets/lmroman10-regular.otf") format("opentype");font-weight:400;font-display:swap}
+    @font-face{font-family:LatinModern;src:url("assets/lmroman10-bold.otf") format("opentype");font-weight:700;font-display:swap}
+    :root{color-scheme:light;--ink:#111;--muted:#363636;--line:#777;--soft:#ededed;--paper:#fff;--focus:#111}
+    *{box-sizing:border-box}html{font-size:18px}body{margin:0;background:var(--paper);color:var(--ink);font-family:LatinModern,Georgia,"Times New Roman",serif;line-height:1.55}
+    a{color:inherit;text-decoration:underline;text-underline-offset:.15em}a:hover{text-decoration-thickness:.13em}button,input{font:inherit;color:inherit}button{cursor:pointer}
+    :focus-visible{outline:3px solid var(--focus);outline-offset:3px}button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+    .skip{position:absolute;left:1rem;top:-8rem;background:#fff;border:2px solid #111;padding:.6rem 1rem;z-index:100}.skip:focus{top:1rem}
+    .wrap{width:min(100% - 2rem,1120px);margin-inline:auto}.measure{max-width:74ch}.rule{border-top:2px solid var(--ink)}
+    header{padding:1.5rem 0 1.2rem}header .meta{font-size:.94rem}h1,h2,h3{font-family:LatinModern,Georgia,serif;color:#111;line-height:1.15;letter-spacing:0}h1{font-size:clamp(2rem,3.3vw,3rem);font-weight:700;max-width:27ch;margin:1rem 0}h2{font-size:clamp(1.6rem,2.4vw,2.15rem);margin:0 0 .65rem}h3{font-size:1.25rem;margin:.15rem 0 .5rem}
+    p{margin:.55rem 0 1rem}.small{font-size:.88rem}.muted{color:var(--muted)}
+    nav{border-block:1px solid var(--ink)}nav .inner{display:flex;gap:.25rem 1.3rem;flex-wrap:wrap;padding:.65rem 0}nav a{min-height:44px;display:inline-flex;align-items:center}
+    main section{padding:3rem 0;border-bottom:1px solid #999;scroll-margin-top:1rem}.section-no{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;margin:0 0 .4rem}
+    .lead{font-size:1.16rem;max-width:75ch}.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+    .panel{border:1px solid #888;padding:1rem;min-width:0}.panel p:last-child{margin-bottom:0}.label{font-size:.86rem;border:1px solid #555;display:inline-block;padding:.12rem .4rem;line-height:1.3;margin-bottom:.5rem}
+    figure{margin:1rem 0}figure img{display:block;max-width:100%;height:auto;border:1px solid #bbb}figcaption{font-size:.9rem;line-height:1.4;margin-top:.45rem}.source{font-size:.86rem;margin-top:.55rem}
+    .research-question{font-size:1.4rem;line-height:1.35;border-left:3px solid #111;padding-left:1rem;margin:1.4rem 0}
+    .flow{display:flex;align-items:stretch;gap:.4rem;margin:1.25rem 0}.flow>div{border:1px solid #555;padding:.8rem;flex:1;display:flex;align-items:center;justify-content:center;text-align:center}.flow>span{align-self:center;font-size:1.3rem}
+    .table-scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:600px}th,td{text-align:left;vertical-align:top;padding:.6rem .65rem;border-bottom:1px solid #aaa}th{border-bottom:2px solid #111}caption{text-align:left;font-size:.9rem;margin-bottom:.35rem}
+    .controls{display:flex;gap:.5rem;flex-wrap:wrap;margin:.8rem 0 1rem}.choice{background:#fff;border:1.5px solid #444;min-height:44px;padding:.5rem .85rem}.choice[aria-pressed="true"]{border-width:3px;text-decoration:underline;text-underline-offset:.2em}.choice:hover{background:#f4f4f4}
+    .result{border:1px solid #888;padding:1rem;margin-top:.7rem}.result figure{margin:.5rem auto}.result img{max-height:560px;width:auto;margin-inline:auto}.plot-link{display:inline-block;min-height:44px;padding:.5rem 0}
+    .index-search{display:block;margin:.5rem 0 1rem;width:min(100%,520px)}.index-search label{display:block;margin-bottom:.35rem}.index-search input{width:100%;min-height:48px;padding:.55rem .7rem;border:1.5px solid #333;background:#fff}
+    .slide-index{list-style:none;padding:0;margin:.5rem 0}.slide-index li{display:grid;grid-template-columns:3rem 1fr;gap:.3rem 1rem;padding:.65rem 0;border-bottom:1px solid #bbb}.slide-index .n{font-variant-numeric:tabular-nums}.slide-index .group{font-size:.85rem;color:var(--muted)}.slide-index .takeaway{font-size:.91rem;margin-top:.25rem}
+    details{border:1px solid #888;margin:.7rem 0}summary{cursor:pointer;min-height:48px;padding:.7rem .85rem;font-weight:700}details>div{padding:.1rem .85rem 1rem}.math{font-size:1.1rem;white-space:normal;overflow-wrap:anywhere;border-block:1px solid #aaa;padding:.65rem 0;line-height:1.5}.latex-source{font-size:.83rem;white-space:pre-wrap;overflow-wrap:anywhere;background:#f8f8f8;border:1px solid #bbb;padding:.6rem}
+    .slider-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem 1.4rem}.slider-grid label{display:block}.slider-grid input{width:100%;min-height:44px;accent-color:#111}.slider-output{border:1px solid #777;padding:.75rem 1rem;font-variant-numeric:tabular-nums}
+    .faq-group{margin:1.8rem 0}.faq-group h3{border-bottom:1px solid #888;padding-bottom:.35rem}.faq-group details{margin:.55rem 0}.faq-group summary{font-weight:700}.faq-group p,.faq-group ol{max-width:75ch}.question-form{max-width:760px}.question-form label{display:block;font-weight:700;margin:1rem 0 .3rem}.question-form textarea,.question-form input,.question-form select{display:block;width:100%;min-height:48px;border:1.5px solid #333;background:#fff;padding:.6rem .7rem}.question-form textarea{min-height:150px;resize:vertical}.question-form button{background:#fff;color:#111;border:2px solid #111;min-height:48px;padding:.6rem 1.2rem;margin-top:1rem}.question-form button:hover{background:#eee}.question-form .optional{font-weight:400}.question-form .note{font-size:.9rem}.question-form [role=status]{min-height:1.5rem}
+    .refs{padding-left:1.4rem}.refs li{padding:.2rem 0 .55rem}footer{padding:2rem 0 3rem;font-size:.9rem}
+    @media(max-width:760px){.two,.three,.slider-grid{grid-template-columns:1fr}.flow{flex-direction:column}.flow>span{transform:rotate(90deg)}.wrap{width:min(100% - 1.3rem,1120px)}main section{padding:2rem 0}.slide-index li{grid-template-columns:2.4rem 1fr}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+    @media print{nav,.skip,.controls,.index-search,.question-form button{display:none!important}body{font-size:11pt}main section{break-inside:avoid}a{text-decoration:none}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="wrap">
+    <div class="meta">Omokhuwele Umoru · Yale Applied Physics · Area Examination · 28 October 2026</div>
+    <h1>A first principles study of the electron and hole energetics at the interface of transition metal oxides and Lehn’s catalyst [Re(bpy)(CO)₃Cl] for CO₂ photoreduction.</h1>
+    <p class="lead">Questions and answers about the proposed system, preliminary calculations, methods, and next steps.</p>
+  </header>
+  <nav aria-label="Guide sections"><div class="wrap inner">
+    <a href="#faq">FAQ</a><a href="#results">Explore figures</a><a href="#follow">Slide index</a><a href="#ask">Question box</a><a href="#references">References</a>
+  </div></nav>
+  <main id="main">
+    <section id="faq"><div class="wrap">
+      <p class="section-no">01 · Start here</p><h2>Frequently asked questions</h2>
+      <p class="measure">These answers summarize the talk. Open a question, then follow its links to figures and sources.</p>
+      <div class="faq-group"><h3>The project</h3>
+        <details open><summary>What question is this project trying to answer?</summary><div><p>Which attachment geometries bind, and how does the first molecular accepting state sit relative to the STO conduction edge?</p><p class="small">Question guiding the interface calculations.</p></div></details>
+        <details open><summary>What is the proposed photocatalytic system?</summary><div><p>The proposed architecture combines a semiconductor, an STO oxide layer, an attached Re(bpy)(CO)₃Cl-derived molecular catalyst, and a solvent environment. The arrows in the band diagram mark an intended charge pathway; the preliminary electronic-structure calculations do not measure its transfer rate.</p><figure><img src="assets/si_sto_re_concept_schematic.png" alt="Band diagram of an oxide-coated n-Si/p-Si absorber under illumination, with charge arrows toward the oxide–solvent side; the molecular catalyst is not shown in this image." loading="eager"><figcaption>Conceptual oxide-coated silicon band diagram (this work). The catalyst is not shown in this image.</figcaption></figure></div></details>
+        <details><summary>What product is the project aiming toward?</summary><div><p>The catalyst can reduce CO₂ to CO and HCO₂H. The longer-term goal described for this talk is to extract CO and convert it to fuel. Fuel production is not a result of the interface calculations.</p></div></details>
+        <details><summary>Is acetonitrile included in the preliminary calculations?</summary><div><p>Acetonitrile is the proposed operating medium. The descriptor and full-interface calculations shown here are solvent-free, so they do not yet quantify how acetonitrile changes binding or level alignment.</p></div></details>
+        <details><summary>What did previous work establish?</summary><div><p>Prior studies motivate three components separately: Re molecular CO₂ reduction, attachment of related catalysts to TiO₂-based surfaces, and charge transport through a GaAs/STO photoelectrode for hydrogen production. Their geometries, reactions, and solvent conditions differ from the proposed interface.</p><p class="small">See Hawecker et al. (1983), Ge et al. (2018), and Kornblum et al. (2017) in <a href="#references">References</a>.</p></div></details>
+      </div>
+      <div class="faq-group"><h3>The calculations</h3>
+        <details><summary>Which calculations address the research question?</summary><div><ol><li>Gas-phase descriptor binding to the isolated Re catalyst.</li><li>Formic acid on STO as an attachment model, followed by one- and two-attachment Re/STO geometries.</li><li>Projected densities of states to compare molecular and oxide accepting states and their sensitivity to the oxide treatment.</li></ol><p>The interface structures and level offsets are preliminary.</p></div></details>
+        <details><summary>What do the one- and two-attachment models compare?</summary><div><p>They attach the same two-COOH catalyst through one or both carboxyl groups. Preliminary calculations give total adsorption energies of 1.949 eV and 2.942 eV on exploratory two-layer STO slabs. The comparison depends on its stated energy reference and needs thicker-slab checks.</p><p><a href="#results">Compare the two structures</a>.</p></div></details>
+        <details><summary>Does the projected density of states prove electron transfer?</summary><div><p>No. It identifies the energy and projected character of calculated states, so it can show whether a molecular accepting state lies above or below an oxide edge within one model. A transfer rate would also depend on coupling, nuclear and solvent reorganization, occupations, and competing pathways.</p><p><a href="#results">See the current PDOS status</a>.</p></div></details>
+        <details><summary>Why compare two DFT+U settings?</summary><div><p>The bulk STO benchmark depends on the U values and the orbital projector. Earlier interface PDOS panels on slides 21–22 are withdrawn pending recalculation and should not be used to infer a molecular–oxide offset. The projector defines the local orbital subspace used in the correction.</p><p><a href="#methods">Read the method notes</a>.</p></div></details>
+      </div>
+      <div class="faq-group"><h3>Scope and next steps</h3>
+        <details><summary>What are the main limits of the preliminary interface results?</summary><div><p>The interface models use exploratory two-layer slabs. The corrected bulk benchmark requires validation of the interface U/projector choice; slides 21–22 are pending reruns. Separate-cell energy zeros need an alignment procedure before absolute comparison. These calculations do not yet establish a transfer rate.</p></div></details>
+        <details><summary>What is the BaTiO₃ direction?</summary><div><p>It is a proposed second direction on the electro-optic response of BaTiO₃. The first step is to define the target observable, phase, orientation, strain, and mechanical boundary condition, then benchmark undoped BaTiO₃ before studying Er/Yb sites and compensating defects. Er-related light emission and electric-field-driven refractive-index change are different observables.</p><p><a href="#bto">Explore the conceptual Pockels diagram</a>.</p></div></details>
+      </div>
+      <div class="three" aria-label="How to read evidence labels">
+        <div class="panel"><span class="label">This work · preliminary</span><p>Calculated structures or energies that need the stated convergence and method checks.</p></div>
+        <div class="panel"><span class="label">Published precedent</span><p>A result reported by another group. Its materials and conditions are identified in the source citation.</p></div>
+        <div class="panel"><span class="label">Proposed test</span><p>A calculation or comparison planned to settle a present uncertainty.</p></div>
+      </div>
+    </div></section>
+
+    <section id="follow"><div class="wrap">
+      <p class="section-no">02 · During the exam</p><h2>Slide index</h2>
+      <p class="measure">Search the current 28-slide deck by number or topic.</p>
+      <div class="index-search"><label for="slideSearch">Find a slide</label><input id="slideSearch" type="search" placeholder="For example: 25, DFT+U, BaTiO₃" autocomplete="off"></div>
+      <p id="slideCount" role="status" aria-live="polite"></p><ol id="slideIndex" class="slide-index"></ol><noscript><p>The slide search requires JavaScript. The research, methods, figures, and references below remain available without it.</p></noscript>
+    </div></section>
+
+    <section id="results"><div class="wrap">
+      <p class="section-no">03 · This work · preliminary</p><h2>Explore the interface results</h2>
+      <p class="measure">These controls compare calculated models. They change the displayed figure and written interpretation; they do not simulate electron-transfer dynamics.</p>
+      <h3>Attachment geometry</h3>
+      <div class="controls" role="group" aria-label="Choose an attachment geometry"><button class="choice" type="button" data-geometry="one" aria-pressed="true">One attachment</button><button class="choice" type="button" data-geometry="two" aria-pressed="false">Two attachments</button></div>
+      <div class="result"><figure><img id="geometryImage" src="assets/adsorbed_catalyst_one_linker.png" alt="Preliminary model of the two-COOH Re catalyst attached to the STO surface through one carboxyl group." loading="lazy"><figcaption id="geometryCaption">One attachment of the same two-COOH catalyst. This work; exploratory two-layer STO slab.</figcaption></figure><p id="geometryText" aria-live="polite">The one-attachment structure has a reported total adsorption energy of 1.949 eV on the tested STO slab. This is a total-energy result, not a transfer rate.</p><a class="plot-link" id="geometryFull" href="assets/adsorbed_catalyst_one_linker.png" target="_blank" rel="noopener">Open full-size geometry image</a></div>
+      <h3>Electronic-structure status</h3>
+      <div class="result" role="status"><p><strong>Slides 21–22 are withdrawn pending reruns.</strong> Their original interface PDOS figures and numerical offsets should not be presented as validated results. The bulk benchmark plot had the QE atomic and ortho-atomic method labels interchanged; corrected interface calculations are in progress. A new within-cell molecular–oxide ordering can be discussed after the projector, U settings, convergence, and projection definitions are verified.</p><p class="small">The adsorption structures above remain preliminary STO models. The withdrawn PDOS images are intentionally absent from this final guide.</p></div>
+    </div></section>
+
+    <section id="methods"><div class="wrap">
+      <p class="section-no">04 · Methods and limits</p><h2>How the calculations answer the question</h2>
+      <p class="measure">Each derivation is short here. The full presentation and backups carry the details, variable definitions, and convergence questions.</p>
+      <details><summary>Ground-state DFT</summary><div><p>The exact ground-state energy is written as a functional of the electron density. Practical Kohn–Sham calculations use an approximation for exchange and correlation; the preliminary calculations use PBE.</p><p class="math" aria-label="E of n equals F of n plus the integral of external potential times electron density">E[n] = F[n] + ∫ v<sub>ext</sub>(r)n(r) dr</p><p class="small">A Kohn–Sham eigenvalue gap is not automatically an optical excitation or a measured redox energy. <a href="https://doi.org/10.1103/PhysRev.136.B864">Hohenberg & Kohn (1964)</a> and <a href="https://doi.org/10.1103/PhysRev.140.A1133">Kohn & Sham (1965)</a> are the foundational sources.</p></div></details>
+      <details><summary>DFT+U and orbital projectors</summary><div><p>The Dudarev correction depends on a projected occupation matrix. Atomic and orthogonalized atomic projectors define different local subspaces, so a numerical U value must be interpreted with its projector choice.</p><p class="math" aria-label="D F T plus U energy equals D F T energy plus U effective over two times trace of occupation matrix minus its square">E<sub>DFT+U</sub> = E<sub>DFT</sub> + (U<sub>eff</sub>/2) Tr[n − n²]</p><p class="small">Shown for one corrected subspace; the full expression sums over sites and spin. Source: <a href="https://doi.org/10.1103/PhysRevB.57.1505">Dudarev et al. (1998)</a>.</p></div></details>
+      <details><summary>What PDOS can and cannot show</summary><div><p>Projected DOS indicates the energy and selected atomic or orbital character of calculated states. Comparing the first molecular and oxide unoccupied features motivates a transfer hypothesis. Establishing a rate also requires electronic coupling, nuclear and solvent reorganization, occupations, and competing pathways.</p><p>Within one interface calculation, the relative state order can be read directly. Plots from separate cells need an alignment procedure before their absolute energies are compared.</p></div></details>
+    </div></section>
+
+    <section id="bto"><div class="wrap">
+      <p class="section-no">05 · Proposed second direction</p><h2>BaTiO₃ and the Pockels response</h2>
+      <p class="measure">A slowly varying electric field changes the optical impermeability of a noncentrosymmetric crystal and therefore its refractive index. Published calculations provide phase-specific undoped BaTiO₃ baselines. The Er/Yb-doped comparison is proposed work.</p>
+      <div class="flow" aria-label="Pockels effect sequence"><div>Applied electrical field</div><span aria-hidden="true">→</span><div>Optical impermeability changes</div><span aria-hidden="true">→</span><div>Refractive index changes</div></div>
+      <p class="math" aria-label="r i j k is the derivative of optical impermeability eta i j with respect to applied field E k at zero field">η = (ε<sub>opt</sub><sup>relative</sup>)<sup>−1</sup>; r<sub>ijk</sub> = ∂η<sub>ij</sub>/∂E<sub>k</sub> at E=0</p>
+      <div class="two"><div class="panel"><h3>Baseline before dopants</h3><ol><li>Specify the measured target, crystal phase, orientation, strain, domains, and mechanical boundary condition.</li><li>Benchmark the undoped structure and electro-optic response.</li><li>Compare plausible Er/Yb sites and charge-compensating defects.</li><li>Only then test a doped response for the defined observable.</li></ol></div><div class="panel"><h3>What the literature establishes</h3><p><a href="https://doi.org/10.1103/PhysRevB.103.014303">Paoletta & Demkov (2021)</a> study low-temperature rhombohedral BaTiO₃; <a href="https://doi.org/10.1103/PhysRevB.108.115201">Kim et al. (2023)</a> study tetragonal BaTiO₃. Their phase-specific results cannot be transferred to an unspecified doped film. <a href="https://doi.org/10.1016/S0925-8388(00)00915-4">Zhang et al. (2000)</a> report Er-related near-infrared emission, a different observable from Pockels modulation.</p></div></div>
+      <details><summary>What do the final doping and timeline slides claim?</summary><div><p>Er³⁺ emission near 1.54 µm and Yb³⁺ sensitization have published precedent, but retention of the tetragonal ferroelectric phase and any change in Pockels response are proposed tests. Compare Er³⁺/Yb³⁺ substitution on Ba²⁺ or Ti⁴⁺ sites with charge compensation. The 0–6 month timeline begins with undoped BaTiO₃ validation, then candidate defect models, then orientation-dependent electro-optic predictions compared with experiment.</p><p class="small">Background sources: Zhang et al. (2000), Lou et al. (2020), and Paoletta &amp; Demkov (2021).</p></div></details>
+      <details><summary>Explore a conceptual soft-mode relationship</summary><div><p id="sliderHelp">This illustration changes a relative factor proportional to Raman sensitivity × mode polarity / frequency². It is not a computed BaTiO₃ coefficient or a prediction for an Er/Yb-doped film.</p><div class="slider-grid"><label>Raman sensitivity: <output id="ramanValue">1.0</output><input id="raman" type="range" min="0" max="2" step="0.1" value="1" aria-describedby="sliderHelp"></label><label>Mode polarity: <output id="polarityValue">1.0</output><input id="polarity" type="range" min="0" max="2" step="0.1" value="1" aria-describedby="sliderHelp"></label><label>Mode frequency (cm⁻¹): <output id="frequencyValue">160</output><input id="frequency" type="range" min="80" max="320" step="10" value="160" aria-describedby="sliderHelp"></label><div class="slider-output">Relative factor: <output id="modeResult" aria-live="polite">0.39</output></div></div><p class="small">A soft mode can increase a harmonic contribution, but a near-instability result requires attention to anharmonicity and temperature. See <a href="https://doi.org/10.1103/PhysRevB.103.014303">Paoletta & Demkov (2021)</a> and <a href="https://doi.org/10.1103/PhysRevB.108.115201">Kim et al. (2023)</a>.</p></div></details>
+    </div></section>
+
+    <section id="ask"><div class="wrap">
+      <p class="section-no">06 · Questions from visitors</p><h2>Question box</h2>
+      <p class="measure">Send a question or comment about the talk. Your message goes to a private inbox and is not displayed on this page.</p>
+      <form id="questionForm" class="question-form" action="https://formspree.io/f/mvkkryzg" method="POST">
+        <input type="text" name="_gotcha" style="position:absolute;left:-10000px" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label for="questionTopic">Topic</label><select id="questionTopic" name="topic"><option value="Photocatalytic system">Photocatalytic system</option><option value="DFT and DFT+U">DFT and DFT+U</option><option value="Results and interpretation">Results and interpretation</option><option value="BaTiO3 direction">BaTiO₃ direction</option><option value="Other">Other</option></select>
+        <label for="visitorQuestion">Your question or comment</label><textarea id="visitorQuestion" name="question" required minlength="3" maxlength="2000" aria-describedby="questionHelp"></textarea>
+        <p id="questionHelp" class="note">Up to 2,000 characters. Please do not include sensitive personal information.</p>
+        <label for="visitorEmail">Email <span class="optional">(optional, only if you want a reply)</span></label><input id="visitorEmail" name="email" type="email" autocomplete="email" maxlength="254">
+        <button type="submit">Send question</button> <button type="button" id="copyQuestion">Copy question</button> <button type="button" id="clearQuestion">Clear form</button>
+        <p id="questionStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div></section>
+
+    <section id="references"><div class="wrap">
+      <p class="section-no">07 · Sources</p><h2>References</h2><p class="measure">Sources used in the slides and this guide.</p>
+      <ol class="refs">
+<li data-cite-key="NETL2022Gasification">National Energy Technology Laboratory. <em>Guidelines/Handbook for the Design of Modular Gasification Systems.</em> Technical report, U.S. Department of Energy, National Energy Technology Laboratory (2022). <a href="https://www.netl.doe.gov/sites/default/files/2022-07/Gasification%20Handbook.pdf">Handbook</a>.</li>
+<li data-cite-key="Hawecker1983ReCO2">Jeannot Hawecker, Jean-Marie Lehn, and Raymond Ziessel. “Efficient photochemical reduction of CO₂ to CO by visible light irradiation of systems containing Re(bipy)(CO)₃X or Ru(bipy)₃²⁺–Co²⁺ combinations as homogeneous catalysts.” <em>Journal of the Chemical Society, Chemical Communications</em>, 536–538 (1983). <a href="https://doi.org/10.1039/C39830000536">doi:10.1039/C39830000536</a>.</li>
+<li data-cite-key="Windle2015ReTiO2">Christopher D. Windle, Ernest Pastor, Alice Reynal, Adrian C. Whitwood, Yana Vaynzof, James R. Durrant, Robin N. Perutz, and Erwin Reisner. “Improving the photocatalytic reduction of CO₂ to CO through immobilisation of a molecular Re catalyst on TiO₂.” <em>Chemistry – A European Journal</em> <strong>21</strong>, 3746–3754 (2015). <a href="https://doi.org/10.1002/chem.201405041">doi:10.1002/chem.201405041</a>.</li>
+<li data-cite-key="Ge2018ReSTO">Aimin Ge, Pablo E. Videla, Benjamin Rudshteyn, Qiliang Liu, Victor S. Batista, and Tianquan Lian. “Dopant-dependent SFG response of rhenium CO₂ reduction catalysts chemisorbed on SrTiO₃ (100) single crystals.” <em>The Journal of Physical Chemistry C</em> <strong>122</strong>, 13944–13952 (2018). <a href="https://doi.org/10.1021/acs.jpcc.8b01123">doi:10.1021/acs.jpcc.8b01123</a>.</li>
+<li data-cite-key="Kornblum2017STOGaAs">L. Kornblum, D. P. Fenning, J. Faucher, J. Hwang, A. Boni, M. G. Han, M. D. Morales-Acosta, Y. Zhu, E. I. Altman, M. L. Lee, C. H. Ahn, F. J. Walker, and Y. Shao-Horn. “Solar hydrogen production using epitaxial SrTiO₃ on a GaAs photovoltaic.” <em>Energy and Environmental Science</em> <strong>10</strong>, 377–382 (2017). <a href="https://doi.org/10.1039/C6EE03170F">doi:10.1039/C6EE03170F</a>.</li>
+<li data-cite-key="Ji2015STOSiPhotocathode">Li Ji, Martin D. McDaniel, Shijun Wang, Agham B. Posadas, Xiaohan Li, Haiyu Huang, Jack C. Lee, Alexander A. Demkov, Allen J. Bard, John G. Ekerdt, and Edward T. Yu. “A silicon-based photocathode for water reduction with an epitaxial SrTiO₃ protection layer and a nanostructured catalyst.” <em>Nature Nanotechnology</em> <strong>10</strong>, 84–90 (2015). <a href="https://doi.org/10.1038/nnano.2014.277">doi:10.1038/nnano.2014.277</a>.</li>
+<li data-cite-key="BornOppenheimer1927">Max Born and Robert Oppenheimer. “Zur Quantentheorie der Molekeln.” <em>Annalen der Physik</em> <strong>389</strong>(20), 457–484 (1927). <a href="https://doi.org/10.1002/andp.19273892002">doi:10.1002/andp.19273892002</a>.</li>
+<li data-cite-key="HohenbergKohn1964">P. Hohenberg and W. Kohn. “Inhomogeneous electron gas.” <em>Physical Review</em> <strong>136</strong>, B864–B871 (1964). <a href="https://doi.org/10.1103/PhysRev.136.B864">doi:10.1103/PhysRev.136.B864</a>.</li>
+<li data-cite-key="KohnSham1965">W. Kohn and L. J. Sham. “Self-consistent equations including exchange and correlation effects.” <em>Physical Review</em> <strong>140</strong>, A1133–A1138 (1965). <a href="https://doi.org/10.1103/PhysRev.140.A1133">doi:10.1103/PhysRev.140.A1133</a>.</li>
+<li data-cite-key="PerdewBurkeErnzerhof1996">John P. Perdew, Kieron Burke, and Matthias Ernzerhof. “Generalized gradient approximation made simple.” <em>Physical Review Letters</em> <strong>77</strong>, 3865–3868 (1996). <a href="https://doi.org/10.1103/PhysRevLett.77.3865">doi:10.1103/PhysRevLett.77.3865</a>.</li>
+<li data-cite-key="VanBenthem2001STO">Klaus van Benthem, Christian Elsässer, and Roger H. French. “Bulk electronic structure of SrTiO₃: Experiment and theory.” <em>Journal of Applied Physics</em> <strong>90</strong>(12), 6156–6164 (2001). <a href="https://doi.org/10.1063/1.1415766">doi:10.1063/1.1415766</a>.</li>
+<li data-cite-key="Dudarev1998DFTU">S. L. Dudarev, G. A. Botton, S. Y. Savrasov, C. J. Humphreys, and A. P. Sutton. “Electron-energy-loss spectra and the structural stability of nickel oxide: An LSDA+U study.” <em>Physical Review B</em> <strong>57</strong>, 1505–1509 (1998). <a href="https://doi.org/10.1103/PhysRevB.57.1505">doi:10.1103/PhysRevB.57.1505</a>.</li>
+<li data-cite-key="Keith2013ReCO2Mechanism">John A. Keith, Kyle A. Grice, Clifford P. Kubiak, and Emily A. Carter. “Elucidation of the selectivity of proton-dependent electrocatalytic CO₂ reduction by fac-Re(bpy)(CO)₃Cl.” <em>Journal of the American Chemical Society</em> <strong>135</strong>(42), 15823–15829 (2013). <a href="https://doi.org/10.1021/ja406456g">doi:10.1021/ja406456g</a>.</li>
+<li data-cite-key="Pizl2020ReRaman">Martin Pižl, Alessandra Picchiotti, Mateusz Rebarz, Nils Lenngren, Yingliang Liu, Stanislav Záliš, Miroslav Kloz, and Antonín Vlček. “Time-resolved femtosecond stimulated Raman spectra and DFT anharmonic vibrational analysis of an electronically excited rhenium photosensitizer.” <em>The Journal of Physical Chemistry A</em> <strong>124</strong>(7), 1253–1265 (2020). <a href="https://doi.org/10.1021/acs.jpca.9b10840">doi:10.1021/acs.jpca.9b10840</a>.</li>
+<li data-cite-key="Cannizzo2008ReExcitedStates">Andrea Cannizzo, Ana M. Blanco-Rodríguez, Amal El Nahhas, Jan Šebera, Svatopluk Záliš, Antonín Vlček, and Majed Chergui. “Femtosecond fluorescence and intersystem crossing in rhenium(I) carbonyl–bipyridine complexes.” <em>Journal of the American Chemical Society</em> <strong>130</strong>, 8967–8974 (2008). <a href="https://doi.org/10.1021/ja710763w">doi:10.1021/ja710763w</a>.</li>
+<li data-cite-key="Muller2025ReSubstituents">A. V. Müller, W. M. Wierzba, L. G. A. do Nascimento, J. J. Concepcion, S. Nikolaou, D. E. Polyansky, and A. S. Polo. “Tuning the photocatalytic CO₂ reduction through para-substituents in bipyridyl rhenium complexes.” <em>Artificial Photosynthesis</em> <strong>1</strong>, 214–225 (2025). <a href="https://doi.org/10.1021/aps.4c00026">doi:10.1021/aps.4c00026</a>.</li>
+<li data-cite-key="Qu2010CarboxylicTiO2">Q. Qu, H. Geng, R. Peng, Q. Cui, X. Gu, F. Li, and M. Wang. “Chemically binding carboxylic acids onto TiO₂ nanoparticles with adjustable coverage by solvothermal strategy.” <em>Langmuir</em> <strong>26</strong>(12), 9539–9546 (2010). <a href="https://doi.org/10.1021/la100121n">doi:10.1021/la100121n</a>.</li>
+<li data-cite-key="PaolettaDemkov2021Pockels">Therese Paoletta and Alexander A. Demkov. “Pockels effect in low-temperature rhombohedral BaTiO₃.” <em>Physical Review B</em> <strong>103</strong>, 014303 (2021). <a href="https://doi.org/10.1103/PhysRevB.103.014303">doi:10.1103/PhysRevB.103.014303</a>.</li>
+<li data-cite-key="Zhang2000ErBaTiO3PL">H. X. Zhang, C. H. Kam, Y. Zhou, X. Q. Han, Q. Xiang, S. Buddhudu, Y. L. Lam, and Y. C. Chan. “Photoluminescence at 1.54 μm in sol-gel-derived, Er-doped BaTiO₃ films.” <em>Journal of Alloys and Compounds</em> <strong>308</strong>(1–2), 134–138 (2000). <a href="https://doi.org/10.1016/S0925-8388(00)00915-4">doi:10.1016/S0925-8388(00)00915-4</a>.</li>
+<li data-cite-key="Lou2020ErYbBaTiO3">Yang Lou, Yang Chen, Chengzhen Liu, Ping Chen, Ruoyu Jia, Xiaofen Liu, Luyun Yang, Jinyan Li, and Nengli Dai. “Temperature induced modulation of near-infrared photoluminescence in BaTiO₃:Er.” <em>Journal of Luminescence</em> <strong>223</strong>, 117220 (2020). <a href="https://doi.org/10.1016/j.jlumin.2020.117220">doi:10.1016/j.jlumin.2020.117220</a>.</li>
+<li data-cite-key="Kim2023">I. Kim, T. Paoletta, and A. A. Demkov. “Nature of electro-optic response in tetragonal BaTiO₃.” <em>Physical Review B</em> <strong>108</strong>, 115201 (2023). <a href="https://doi.org/10.1103/PhysRevB.108.115201">doi:10.1103/PhysRevB.108.115201</a>.</li>
+<li data-cite-key="Hawecker1986ReCO2">J. Hawecker, J.-M. Lehn, and R. Ziessel. “Photochemical and electrochemical reduction of carbon dioxide to carbon monoxide mediated by (2,2′-bipyridine)tricarbonylchlororhenium(I) and related complexes as homogeneous catalysts.” <em>Helvetica Chimica Acta</em> <strong>69</strong>, 1990–2012 (1986). <a href="https://doi.org/10.1002/hlca.19860690824">doi:10.1002/hlca.19860690824</a>.</li>
+<li data-cite-key="Kresse1996VASP">G. Kresse and J. Furthmüller. “Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set.” <em>Physical Review B</em> <strong>54</strong>, 11169–11186 (1996). <a href="https://doi.org/10.1103/PhysRevB.54.11169">doi:10.1103/PhysRevB.54.11169</a>.</li>
+<li data-cite-key="Giannozzi2009QE">P. Giannozzi et al. “QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials.” <em>Journal of Physics: Condensed Matter</em> <strong>21</strong>, 395502 (2009). <a href="https://doi.org/10.1088/0953-8984/21/39/395502">doi:10.1088/0953-8984/21/39/395502</a>.</li>
+<li data-cite-key="Giannozzi2017QE">P. Giannozzi et al. “Advanced capabilities for materials modelling with Quantum ESPRESSO.” <em>Journal of Physics: Condensed Matter</em> <strong>29</strong>, 465901 (2017). <a href="https://doi.org/10.1088/1361-648X/aa8f79">doi:10.1088/1361-648X/aa8f79</a>.</li>
+<li data-cite-key="Brennan2013Anchors">B. J. Brennan, M. J. Llansola Portolés, P. A. Liddell, T. A. Moore, A. L. Moore, and D. Gust. “Comparison of silatrane, phosphonic acid, and carboxylic acid functional groups for attachment of porphyrin sensitizers to TiO₂ in photoelectrochemical cells.” <em>Physical Chemistry Chemical Physics</em> <strong>15</strong>, 16605–16614 (2013). <a href="https://doi.org/10.1039/C3CP52156G">doi:10.1039/C3CP52156G</a>.</li>
+<li data-cite-key="Posadas2021BTO">A. B. Posadas, H. Park, M. Reynaud, W. Cao, J. D. Reynolds, W. Guo, V. Jeyaselvan, I. Beskin, G. Z. Mashanovich, J. H. Warner, and A. A. Demkov. “Thick BaTiO₃ epitaxial films integrated on Si by RF sputtering for electro-optic modulators in Si photonics.” <em>ACS Applied Materials &amp; Interfaces</em> <strong>13</strong>, 51230–51244 (2021). <a href="https://doi.org/10.1021/acsami.1c14048">doi:10.1021/acsami.1c14048</a>.</li>
+      </ol>
+      <p><a href="#main">Back to top</a></p>
+    </div></section>
+  </main>
+  <footer class="wrap"><div class="rule"></div><p>Omokhuwele Umoru · Area Examination · 28 October 2026</p><p>Updated 28 October 2026.</p></footer>
+  <script type="application/json" id="slideData">[{"number": 1, "title": "Title", "section": "Opening", "takeaway": "Research question and proposed interface"}, {"number": 2, "title": "Proposed system", "section": "Opening", "takeaway": "Silicon, STO, molecular catalyst, and solvent are a proposed architecture"}, {"number": 3, "title": "Electron transport and catalysis animation", "section": "Opening", "takeaway": "Conceptual path, not a measured rate"}, {"number": 4, "title": "Electron transport pathway and catalysis mechanism", "section": "Opening", "takeaway": "Distinguish intended pathway from demonstrated reactions"}, {"number": 5, "title": "Prior work", "section": "Background", "takeaway": "Separate literature precedents from this interface"}, {"number": 6, "title": "Research question", "section": "Background", "takeaway": "Attachment and accepting-state alignment"}, {"number": 7, "title": "The electronic problem", "section": "Methods", "takeaway": "Fixed nuclei and electronic ground state"}, {"number": 8, "title": "Self-consistent Kohn–Sham", "section": "Methods", "takeaway": "PBE is an approximation; eigenvalue gaps are not optical gaps"}, {"number": 9, "title": "Model progression", "section": "Methods", "takeaway": "Descriptors, small adsorbate, then full interface"}, {"number": 10, "title": "Computational toolkit", "section": "Methods", "takeaway": "VASP and Quantum ESPRESSO settings must be stated"}, {"number": 11, "title": "ReBpy complex", "section": "Molecule", "takeaway": "Descriptor energies and linker substitution"}, {"number": 12, "title": "HOMO/LUMO of ReBpy", "section": "Molecule", "takeaway": "Occupied Re/CO/Cl and unoccupied bipyridine character"}, {"number": 13, "title": "Energy gap trends", "section": "Molecule", "takeaway": "Calculated and measured trends use different observables"}, {"number": 14, "title": "Formic acid model", "section": "Surface", "takeaway": "Small-adsorbate attachment motif on STO"}, {"number": 15, "title": "Molecule–oxide model", "section": "Interface", "takeaway": "STO and anatase adsorption energies; TiO₂ two-linker start relaxes to one bound linker"}, {"number": 16, "title": "Density of states: one linker", "section": "Interface", "takeaway": "Projected states do not establish transfer rate"}, {"number": 17, "title": "Density of states: two linkers", "section": "Interface", "takeaway": "Compare within-model state character and ordering"}, {"number": 18, "title": "Improving DFT gaps: DFT+U", "section": "Benchmark", "takeaway": "Ti correction changes the bulk gap"}, {"number": 19, "title": "Bulk STO U grids", "section": "Benchmark", "takeaway": "Relaxed QE atomic and ortho-atomic data; verify any displayed grid"}, {"number": 20, "title": "Bulk STO benchmark", "section": "Benchmark", "takeaway": "QE atomic and ortho-atomic legend mapping requires correction"}, {"number": 21, "title": "Interface correction: 8/2 eV", "section": "Withdrawn", "takeaway": "Incorrect panel; replacement from cluster rerun pending"}, {"number": 22, "title": "Interface correction: 10/0 eV", "section": "Withdrawn", "takeaway": "Incorrect panel; replacement from cluster rerun pending"}, {"number": 23, "title": "Preliminary findings", "section": "Synthesis", "takeaway": "Do not claim a validated U-dependent offset until reruns are checked"}, {"number": 24, "title": "Photocatalysis: next steps", "section": "Research plan", "takeaway": "Converge interface and test linker/solvent effects"}, {"number": 25, "title": "Photocatalysis timeline", "section": "Research plan", "takeaway": "Define milestones and decision thresholds"}, {"number": 26, "title": "Electro-optics", "section": "Second direction", "takeaway": "Use the inverse optical dielectric tensor and cite Posadas figure"}, {"number": 27, "title": "Electro-optics: doping", "section": "Second direction", "takeaway": "Er/Yb sites and phase retention are proposed tests; Ba is Ba²⁺"}, {"number": 28, "title": "Electro-optics timeline", "section": "Research plan", "takeaway": "Undoped baseline, candidate defect models, then Pockels comparison"}]</script>
+  <script>
+    const slideData = JSON.parse(document.getElementById('slideData').textContent);
+    const search = document.getElementById('slideSearch');
+    const list = document.getElementById('slideIndex');
+    const count = document.getElementById('slideCount');
+    function renderSlides(){
+      const query = search.value.trim().toLocaleLowerCase();
+      const matches = slideData.filter(s => `${s.number} ${s.title} ${s.section} ${s.takeaway}`.toLocaleLowerCase().includes(query));
+      list.replaceChildren();
+      matches.forEach(s => {
+        const item = document.createElement('li');
+        const number = document.createElement('span'); number.className='n'; number.textContent=String(s.number).padStart(2,'0');
+        const body = document.createElement('div');
+        const title = document.createElement('div'); title.textContent=s.title;
+        const group = document.createElement('div'); group.className='group'; group.textContent=s.section;
+        body.append(title,group);
+        if(s.takeaway){const takeaway=document.createElement('div');takeaway.className='takeaway';takeaway.textContent=s.takeaway;body.append(takeaway)}
+        item.append(number,body); list.append(item);
+      });
+      count.textContent=`${matches.length} of ${slideData.length} slides shown`;
+    }
+    search.addEventListener('input',renderSlides); renderSlides();
+
+    const geometry={
+      one:{src:'assets/adsorbed_catalyst_one_linker.png',alt:'Preliminary model of the same two-COOH Re catalyst attached to STO through one carboxyl group.',caption:'One attachment of the same two-COOH catalyst. This work; exploratory two-layer STO slab.',text:'The one-attachment structure has a reported total adsorption energy of 1.949 eV on the tested STO slab. This is a total-energy result, not a transfer rate.'},
+      two:{src:'assets/adsorbed_catalyst_two_linkers.png',alt:'Preliminary model of the same two-COOH Re catalyst attached to STO through two carboxyl groups.',caption:'Two attachments of the same two-COOH catalyst. This work; exploratory two-layer STO slab.',text:'The two-attachment structure has a reported total adsorption energy of 2.942 eV on the tested STO slab. The comparison holds the separated molecular reference fixed.'}
+    };
+    document.querySelectorAll('[data-geometry]').forEach(button=>button.addEventListener('click',()=>{
+      const key=button.dataset.geometry, d=geometry[key];
+      document.querySelectorAll('[data-geometry]').forEach(x=>x.setAttribute('aria-pressed',String(x===button)));
+      const img=document.getElementById('geometryImage');img.src=d.src;img.alt=d.alt;
+      document.getElementById('geometryCaption').textContent=d.caption;
+      document.getElementById('geometryText').textContent=d.text;
+      document.getElementById('geometryFull').href=d.src;
+    }));
+
+    function updateMode(){
+      const a=Number(document.getElementById('raman').value),p=Number(document.getElementById('polarity').value),w=Number(document.getElementById('frequency').value);
+      document.getElementById('ramanValue').value=a.toFixed(1);
+      document.getElementById('polarityValue').value=p.toFixed(1);
+      document.getElementById('frequencyValue').value=String(w);
+      document.getElementById('modeResult').value=(a*p*(100/w)**2).toFixed(2);
+    }
+    ['raman','polarity','frequency'].forEach(id=>document.getElementById(id).addEventListener('input',updateMode));updateMode();
+    const questionForm=document.getElementById('questionForm');
+    const questionStatus=document.getElementById('questionStatus');
+    document.getElementById('copyQuestion').addEventListener('click',async()=>{
+      const question=document.getElementById('visitorQuestion');
+      if(!question.value.trim()){questionStatus.textContent='Write a question before copying it.';question.focus();return}
+      try{await navigator.clipboard.writeText(question.value.trim());questionStatus.textContent='Question copied.'}
+      catch{question.select();questionStatus.textContent='Clipboard access is unavailable. The question is selected for manual copying.'}
+    });
+    document.getElementById('clearQuestion').addEventListener('click',()=>{
+      questionForm.reset();questionStatus.textContent='Form cleared.';
+    });
+  </script>
+</body>
+</html>
